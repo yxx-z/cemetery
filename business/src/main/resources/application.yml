@@ -1,5 +1,7 @@
 server:
   port: 6059
+  servlet:
+    context-path: /user
 
 spring:
   profiles:

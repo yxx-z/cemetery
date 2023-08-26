@@ -14,8 +14,11 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 /**
+ * 管理用户控制器
+ *
  * @author yxx
- * @since 2022-11-12 02:07
+ * @classname AdminUserController
+ * @since 2023/08/26
  */
 @Slf4j
 @Validated

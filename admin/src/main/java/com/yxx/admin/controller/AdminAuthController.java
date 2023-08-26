@@ -18,8 +18,11 @@ import org.springframework.web.bind.annotation.RestController;
 import jakarta.validation.Valid;
 
 /**
+ * 管理员身份验证控制器
+ *
  * @author yxx
- * @since 2023-05-17 10:02
+ * @classname AdminAuthController
+ * @since 2023/08/26
  */
 @Slf4j
 @Validated

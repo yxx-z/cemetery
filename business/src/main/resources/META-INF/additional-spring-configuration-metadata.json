@@ -39,6 +39,11 @@
       "name": "web.domain",
       "type": "java.lang.String",
       "description": "Description for web.domain."
+    },
+    {
+      "name": "app.name",
+      "type": "java.lang.String",
+      "description": "Description for app.name."
     }
   ]
 }

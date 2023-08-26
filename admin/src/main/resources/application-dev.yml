@@ -7,7 +7,7 @@ spring:
   # mysql 通用配置信息内容 使用HikariDataSource连接池
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/base_springboot?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://127.0.0.1:3306/cemetery?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: admin123
     type: com.zaxxer.hikari.HikariDataSource
@@ -29,7 +29,7 @@ spring:
   data:
     redis:
       # 设置初始数据库的数据为8
-      database: 14
+      database: 6
       host: 127.0.0.1
       port: 6379
       # password:
@@ -248,7 +248,7 @@ sa-token:
   # 登录逻辑缓存和业务逻辑缓存分离
   alone-redis:
     # Redis数据库索引（默认为0）
-    database: 13
+    database: 5
     # Redis服务器地址
     host: 127.0.0.1
     # Redis服务器连接端口

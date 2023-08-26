@@ -29,7 +29,7 @@ spring:
   data:
     redis:
       # 设置初始数据库的数据为8
-      database: 14
+      database: 6
       host: 127.0.0.1
       port: 6379
       # password:
@@ -309,7 +309,7 @@ sa-token:
   # 登录逻辑缓存和业务逻辑缓存分离
   alone-redis:
     # Redis数据库索引（默认为0）
-    database: 13
+    database: 5
     # Redis服务器地址
     host: 127.0.0.1
     # Redis服务器连接端口

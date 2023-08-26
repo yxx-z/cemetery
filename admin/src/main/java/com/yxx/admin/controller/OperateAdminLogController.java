@@ -17,11 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 import jakarta.validation.Valid;
 
 /**
+ * 运营管理日志控制器
+ *
  * @author yxx
- * @description 注：@SaCheckRole("super_admin")
- * 表示只有 super_admin 角色的用户才可访问此controller。
- * 该注解亦可放在具体的方法上
- * @since 2023-05-17 15:39
+ * @classname OperateAdminLogController
+ * @since 2023/08/26
  */
 @Slf4j
 @Validated
@@ -29,7 +29,7 @@ import jakarta.validation.Valid;
 @RestController
 @RequestMapping("/log")
 @RequiredArgsConstructor
-@SaAdminCheckRole("super_admin")
+@SaAdminCheckRole("super_admin1")
 public class OperateAdminLogController {
     private final OperateAdminLogService operateAdminLogService;
 
